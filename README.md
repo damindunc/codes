@@ -1,2 +1,2 @@
 # codes
-some helpful code fragments 
+some helpful Android code fragments 
