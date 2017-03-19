@@ -1,4 +1,5 @@
- public void ShowPasswordDialog() {
+AlertDialog b; 
+public void ShowPasswordDialog() {
 
             AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
             LayoutInflater inflater = this.getLayoutInflater();
