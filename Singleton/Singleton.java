@@ -23,6 +23,14 @@ public class StarterClass extends Application {
 
     public void SetSelectTitle(String SelectTitle){this.SelectTitle = SelectTitle;}
     public String GetSelectTitle(){return this.SelectTitle;}
+    
+    public void Begin(){
+
+        Intent i = new Intent(getApplicationContext(), MyActivity.class);
+        i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(i);
+
+    }
 
 
     //how to call
